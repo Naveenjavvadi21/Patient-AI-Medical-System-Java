@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Patient AI Medical ID</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Patient Registration</h2>
+
+    <input type="text" id="name" placeholder="Name">
+    <input type="number" id="age" placeholder="Age">
+    <input type="text" id="blood" placeholder="Blood Group">
+    <input type="text" id="disease" placeholder="Disease">
+
+    <button onclick="registerPatient()">Register</button>
+
+    <h3>Patient Records</h3>
+    <button onclick="getPatients()">Load Patients</button>
+
+    <ul id="patientList"></ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
